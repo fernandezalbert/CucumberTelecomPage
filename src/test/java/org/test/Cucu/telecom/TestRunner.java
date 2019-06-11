@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src\\test\\resources\\Cucumberfrst\\AddCustomer.feature", glue="org.cucumberfst", plugin="html:target",tags= {"@us1,@us2"})
+@CucumberOptions(features="src\\test\\resources\\Cucumberfrst\\AddCustomer.feature", glue="org.cucumberfst", plugin="json:target/FirstCcucreport.json",tags= {"@regression"})
 public class TestRunner {
 
 }
